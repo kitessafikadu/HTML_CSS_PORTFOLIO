@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kitessa</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/favicon.ico" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" style="--i: 1" class="logo">Kitessa.</a>
+      <nav class="navbar">
+        <a href="#about" style="--i: 2">About</a>
+        <a href="#skills" style="--i: 3">Skills</a>
+        <a href="#portfolio" style="--i: 4">Portfolio</a>
+        <a href="#contact" style="--i: 5">Contact</a>
+      </nav>
+    </header>
+    <section id="home" class="home">
+      <div class="home-content">
+        <h3>Hello, I'm</h3>
+        <h1>Kitessa Fikadu</h1>
+        <h3>a creative <span class="my_job">Front-end Developer</span></h3>
+        <p>
+          I'm currently student at
+          <a href="https:/www.ju.edu.et">Jimma University.</a>
+          I can design and program websites. If you want to talk to me, you can
+          contact me.
+        </p>
+      </div>
+      <div class="home-sci">
+        <a style="--i: 7" href="https://www.facebook.com/kitessa.fikadu"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a style="--i: 8" href="https://www.linkedin.com/in/kitessa-fikadu/"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a style="--i: 9" href="https://github.com/kitfikadu"
+          ><i class="bx bxl-github"></i
+        ></a>
+      </div>
+      <div>
+        <a class="btn" href="mailto:kitessafikadu@gmail.com">Let's Talk</a>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <h1>About Me</h1>
+      <p class="text-box">
+        My passion for Software engineering started when I was highschool
+        student at 17 years old, and I haven't looked back since. 3 years later,
+        I'm proud to say that I've joined software engineering department At
+        Jimma University.
+        <br />
+        <br />
+        Now, I'm fourth year student. and beside to education I participate in
+        Web development clubs based in the University.
+        <a href="mailto:kitessafikadu@gmail.com"> Contact me</a> today to learn
+        more!
+      </p>
+    </section>
+    <section id="skills" class="skills">
+      <h1>My Skills</h1>
+      <div class="skills-container">
+        <img src="img/html.png" alt="html" id="html" />
+        <img src="img/css.png" alt="css" id="css" />
+        <img src="img/tailwind.svg" alt="tailwind" id="tailwind" />
+        <img src="img/js.png" alt="js" id="js" />
+        <img src="img/react.png" alt="react" id="react" />
+        <img src="img/python.png" alt="react" id="react" />
+        <img src="img/django.svg" alt="react" id="react" />
+      </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <h1>My Works</h1>
+      <div class="portfolio-container">
+        <div class="image-container">
+          <div class="siblings">
+            <h2>Quiz App</h2>
+            <p>Not hosted yet!</p>
+            <img src="img/" alt="quiz app img" id="image2" />
+            <button><a href="#">See Live</a></button>
+          </div>
+          <div class="siblings">
+            <h2>Chat App</h2>
+            <p>Not hosted yet!</p>
+            <img src="img/" alt="chat app img" id="image2" />
+            <button><a href="#">See Live</a></button>
+          </div>
+        </div>
+        <div class="image-container">
+          <div class="siblings">
+            <h2>E-commerce</h2>
+            <p>Not hosted yet!</p>
+            <img src="img/" alt="e-commerce img" id="image2" />
+            <button><a href="#">See Live</a></button>
+          </div>
+          <div class="siblings">
+            <h2>Social Media</h2>
+            <p>Not hosted yet!</p>
+            <img src="img/" alt="social media img" id="image3" />
+            <button><a href="#">See Live</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h1>Contact Me</h1>
+      <div class="contacts-content">
+        <h3>If have an idea don't hesitate to contact me.</h3>
+        <div class="inputs">
+          <form action="mailto:kitessafikadu@gmail.com" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+            <br />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+            <br />
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <br />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">All right is reserved. &copy; Kitessa. 2024</footer>
+  </body>
+</html>
